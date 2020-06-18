@@ -1,0 +1,150 @@
+{
+  "uid" : "fa0c325660268be7",
+  "name" : "deleteRapidProContact",
+  "fullName" : "MomConnect.ClinicLine.PrebirthWhatsapp.deleteRapidProContact",
+  "historyId" : "bfc86b4f03e97f39c78029aca9a2ed07",
+  "time" : {
+    "start" : 1592472115288,
+    "stop" : 1592472117509,
+    "duration" : 2221
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpec",
+    "time" : {
+      "start" : 1592472097107,
+      "stop" : 1592472098331,
+      "duration" : 1224
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "createRequestSpecRP",
+    "time" : {
+      "start" : 1592472098332,
+      "stop" : 1592472098387,
+      "duration" : 55
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "createRequestSpecSlack",
+    "time" : {
+      "start" : 1592472098387,
+      "stop" : 1592472098392,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "createRequestSpecTR",
+    "time" : {
+      "start" : 1592472098392,
+      "stop" : 1592472098400,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MomConnect.ClinicLine.PrebirthWhatsapp"
+  }, {
+    "name" : "testClass",
+    "value" : "MomConnect.ClinicLine.PrebirthWhatsapp"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteRapidProContact"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuiteDemo"
+  }, {
+    "name" : "suite",
+    "value" : "Test1"
+  }, {
+    "name" : "subSuite",
+    "value" : "MomConnect.ClinicLine.PrebirthWhatsapp"
+  }, {
+    "name" : "host",
+    "value" : "Randalls-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "49810@Randalls-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "346d3c4e69328eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592401447476,
+        "stop" : 1592401449688,
+        "duration" : 2212
+      }
+    }, {
+      "uid" : "2a77a193e9be7903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592389829735,
+        "stop" : 1592389831986,
+        "duration" : 2251
+      }
+    }, {
+      "uid" : "1bcfd421f1b805ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592388856970,
+        "stop" : 1592388859193,
+        "duration" : 2223
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa0c325660268be7.json",
+  "parameterValues" : [ ]
+}

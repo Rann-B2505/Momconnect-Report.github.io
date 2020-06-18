@@ -1,0 +1,160 @@
+{
+  "uid" : "3cfd9f6b426903ee",
+  "name" : "validateRapidProContact",
+  "fullName" : "MomConnect.ClinicLine.PrebirthSMS.validateRapidProContact",
+  "historyId" : "5b985b2d2aaa79734e650db92102dd99",
+  "time" : {
+    "start" : 1592472126013,
+    "stop" : 1592472126286,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "createRequestSpec",
+    "time" : {
+      "start" : 1592472117606,
+      "stop" : 1592472117607,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "createRequestSpecRP",
+    "time" : {
+      "start" : 1592472117607,
+      "stop" : 1592472117608,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "MomConnect.ClinicLine.PrebirthSMS"
+  }, {
+    "name" : "testClass",
+    "value" : "MomConnect.ClinicLine.PrebirthSMS"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateRapidProContact"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuiteDemo"
+  }, {
+    "name" : "suite",
+    "value" : "Test2"
+  }, {
+    "name" : "subSuite",
+    "value" : "MomConnect.ClinicLine.PrebirthSMS"
+  }, {
+    "name" : "host",
+    "value" : "Randalls-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "49810@Randalls-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5cb3b36001417b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592466329673,
+        "stop" : 1592466331232,
+        "duration" : 1559
+      }
+    }, {
+      "uid" : "26b25737eaaec95f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592466238323,
+        "stop" : 1592466239859,
+        "duration" : 1536
+      }
+    }, {
+      "uid" : "69bbc8befa2e4ddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592465399223,
+        "stop" : 1592465400273,
+        "duration" : 1050
+      }
+    }, {
+      "uid" : "4752f342d415e859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592401464115,
+        "stop" : 1592401464416,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "c6aecefdda0fc3e2",
+      "status" : "failed",
+      "statusDetails" : "expected [[TRUE]] but found [[]]",
+      "time" : {
+        "start" : 1592390557848,
+        "stop" : 1592390560171,
+        "duration" : 2323
+      }
+    }, {
+      "uid" : "449070306a01df33",
+      "status" : "failed",
+      "statusDetails" : "expected [[1]] but found [[null]]",
+      "time" : {
+        "start" : 1592390385984,
+        "stop" : 1592390387369,
+        "duration" : 1385
+      }
+    }, {
+      "uid" : "d10f6ad7fff03490",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592389848864,
+        "stop" : 1592389849161,
+        "duration" : 297
+      }
+    }, {
+      "uid" : "a3fc50a74e772400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592388877298,
+        "stop" : 1592388877559,
+        "duration" : 261
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3cfd9f6b426903ee.json",
+  "parameterValues" : [ ]
+}
